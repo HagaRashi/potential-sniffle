@@ -13,5 +13,7 @@ div#megadescription{
 }
 div{
     text-align: center !important;
-    font-size: 2rem;
+}
+#megaStart{
+    font-size: 3rem;
 }
