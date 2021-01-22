@@ -9,11 +9,13 @@
 }
 div#megadescription{
     font-size: 2rem;
+    font-family: 'Comfortaa Regular';
 }
 div{
     text-align: center !important;
 }
 #megaStart{
+    font-family: 'Acme', sans-serif;
     font-size: 3rem;
     background-color:rgb(232, 234, 246);
     border-color: #29B6F7;
