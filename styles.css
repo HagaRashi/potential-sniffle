@@ -1,9 +1,8 @@
 #megamain{
-    background-color: blueviolet;
+    background-color: #FFEBEE;
     border-radius: 50px;
 }
 #meganame{
-    background-color: darkorange;
     font-family: 'Acme', sans-serif;
     font-size: 5em !important;
     text-align: center;
