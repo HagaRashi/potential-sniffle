@@ -11,3 +11,6 @@
 div#megadescription{
     font-size: 2rem;
 }
+div{
+    text-align: center !important;
+}
