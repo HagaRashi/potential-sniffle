@@ -15,15 +15,15 @@ div{
 }
 #megaStart{
     font-size: 3rem;
-    background-color: #e8eaf6;
+    background-color:rgb(232, 234, 246);
     border-color: #29B6F7;
     border-style: solid;
     border-width: 4px;
     border-radius: 20px;
-    color: #29B6F7;
+    color: rgb(41, 182, 247);
     transition-property: color, background-color;
 }
 #megaStart:hover{
-    background-color: #29B6F7 !important;
-    color: #e8eaf6 !important;
+    background-color: rgb(41, 182, 247) !important;
+    color: rgb(232, 234, 246) !important;
 }
