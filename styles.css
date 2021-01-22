@@ -5,7 +5,7 @@
 #meganame{
     background-color: darkorange;
     font-family: 'Acme', sans-serif;
-    font-size: 5em;
+    font-size: 5em !important;
     text-align: center;
 }
 div#megadescription{
@@ -13,4 +13,5 @@ div#megadescription{
 }
 div{
     text-align: center !important;
+    font-size: 2rem;
 }
