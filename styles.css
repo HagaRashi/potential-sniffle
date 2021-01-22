@@ -22,6 +22,7 @@ div{
     border-radius: 20px;
     color: rgb(41, 182, 247);
     transition-property: color, background-color;
+    transition-duration: 0.5s;
 }
 #megaStart:hover{
     background-color: rgb(41, 182, 247) !important;
