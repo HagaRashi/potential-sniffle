@@ -73,8 +73,11 @@ div{
 }
 .answ:hover{
     opacity: 1;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
     animation-name: megaupanim;
     animation-duration: .1s;
     animation-direction: normal;
+}
+.answ.appeared{
+    animation-name:none
 }
