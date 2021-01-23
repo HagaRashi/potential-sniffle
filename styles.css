@@ -62,3 +62,6 @@ div{
     animation-direction: reverse;
     animation-fill-mode: forwards;
 }
+#quest{
+    background-color: #b3e5fc;
+}
