@@ -3,6 +3,6 @@ $(()=>{
         $("#megamain").addClass("disapearing")
         window.setTimeout(()=>{
             $("body").load("second.html")
-        },0.5)
+        },500)
     })
 })
