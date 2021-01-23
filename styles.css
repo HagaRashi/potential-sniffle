@@ -31,7 +31,7 @@ div{
 }
 #megaStart:hover{
     background-color: rgb(41, 182, 247) !important;
-    color: rgb(232, 234, 246) !important
+    color: white !important;
 }
 #quest{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
