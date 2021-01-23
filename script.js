@@ -1,3 +1,5 @@
-$("#megaStart").on("click",()=>{
-    
+$(document).on("ready",()=>{
+    $("#megaStart").on("click",()=>{
+        $("#megamain").load()
+    })
 })
