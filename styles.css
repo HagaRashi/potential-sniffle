@@ -1,4 +1,7 @@
 @keyframes megaanim{
+    50%{
+        opacity:1
+    }
     to {
         opacity: 0;
         box-shadow: 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(0,0,0,0);
