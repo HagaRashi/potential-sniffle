@@ -37,4 +37,7 @@ div{
 }
 #quest,.answ{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    font-family: 'Comfortaa';
+    font-weight: 400;
+    font-size: 1.5rem;
 }
