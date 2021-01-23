@@ -1,5 +1,5 @@
 $(()=>{
     $("#megaStart").on("click",()=>{
-        $("#megamain").load("second.html")
+        $("body").load("second.html")
     })
 })
