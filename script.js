@@ -3,6 +3,9 @@ $(()=>{
         $("#megamain").addClass("disapearing")
         window.setTimeout(()=>{
             $("body").load("second.html")
+            window.setTimeout(()=>{
+                $(".answ").css("animation-name","none")
+            })
         },800)
     })
 })
