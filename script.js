@@ -1,5 +1,5 @@
 $(()=>{
     $("#megaStart").on("click",()=>{
-        $("body").load("second.html")
+        $("#megamain").addClass("disapearing")
     })
 })
