@@ -13,6 +13,11 @@
         box-shadow: 0 14px 20px 10px rgba(0,0,0,0.2), 0 10px 10px 6px rgba(0,0,0,0.11);
     }
 }
+@keyframes megadownanim{
+    to{
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+    }
+}
 #megamain{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     opacity: 1;
@@ -71,7 +76,7 @@ div{
 #quest{
     background-color: #b3e5fc;
 }
-.answ:hover{
+.answ.appeared:hover{
     opacity: 1;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     animation-name: megaupanim !important;
@@ -79,7 +84,8 @@ div{
     animation-direction: normal;
 }
 .answ.appeared{
-    animation-name:none;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    animation-name:megadownanim;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
     opacity: 1;
 }
