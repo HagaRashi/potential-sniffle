@@ -56,12 +56,12 @@ div{
     border-style: solid;
     border-width: 4px;
     border-radius: 20px;
-    color: rgb(41, 182, 247);
+    color: #29B6F7;
     transition-property: color, background-color;
     transition-duration: 0.5s;
 }
 #megaStart:hover{
-    background-color: rgb(41, 182, 247) !important;
+    background-color: #29B6F7 !important;
     color: white !important;
 }
 #quest,.answ{
@@ -93,4 +93,9 @@ div{
     animation-iteration-count: 1;
     animation-direction: normal;
     opacity: 1;
+    transition-property: background-color;
+    transition-duration: .1s;
+}
+.answ.active{
+    background-color: #29B6F7;
 }
