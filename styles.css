@@ -15,6 +15,11 @@
     animation-name: appearing;
     animation-duration: 2.5s;
 }
+#megamain:hover{
+    animation-name: appearing;
+    animation-direction: reverse;
+    animation-duration: 2.5s;
+}
 #meganame{
     font-family: 'Acme', sans-serif;
     font-size: 5em !important;
