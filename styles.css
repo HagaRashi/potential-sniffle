@@ -1,38 +1,9 @@
-@keyframes megaanim{
-    from{
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-        box-shadow: 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(0,0,0,0);
-    }
-}
-@keyframes megaupanim{
-    to{
-        box-shadow: 0 14px 20px 10px rgba(0,0,0,0.2), 0 10px 10px 6px rgba(0,0,0,0.11);
-    }
-}
-@keyframes megadownanim{
-    from{
-        box-shadow: 0 14px 20px 10px rgba(0,0,0,0.2), 0 10px 10px 6px rgba(0,0,0,0.11);
-    }
-    to{
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
-    }
-}
 #megamain{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     opacity: 1;
 }
-.disapearing{
-    animation-name: megaanim;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-}
 #megamain,#quest,.answ{
     background-color: white;
-    border-radius: 50px;
 }
 #meganame{
     font-family: 'Acme', sans-serif;
@@ -57,8 +28,6 @@ div{
     border-width: 4px;
     border-radius: 20px;
     color: #29B6F7;
-    transition-property: color, background-color;
-    transition-duration: 0.5s;
 }
 #megaStart:hover{
     background-color: #29B6F7 !important;
@@ -70,11 +39,6 @@ div{
     font-size: 1.5rem;
     opacity: 0;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(0,0,0,0);
-    animation-name: megaanim;
-    animation-duration: .5s;
-    animation-direction: reverse;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
 }
 #quest{
     background-color: #b3e5fc;
@@ -82,20 +46,4 @@ div{
 .answ.appeared:hover{
     opacity: 1;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    animation-name: megaupanim !important;
-    animation-duration: .5s;
-    animation-direction: normal;
-}
-.answ.appeared{
-    animation-name:megadownanim;
-    animation-fill-mode: forwards;
-    animation-duration: .5s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    opacity: 1;
-    transition-property: background-color;
-    transition-duration: .1s;
-}
-.answ.active{
-    background-color: #29B6F7;
 }
