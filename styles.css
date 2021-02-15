@@ -12,10 +12,8 @@
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     opacity: 1;
     background-color: white;
-}
-#megamain:hover{
     animation-name: appearing;
-    animation-duration: 1s;
+    animation-duration: 2.5s;
 }
 #meganame{
     font-family: 'Acme', sans-serif;
