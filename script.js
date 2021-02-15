@@ -1,5 +1,5 @@
 $(()=>{
-    $("#megamain"),on("animationend",()=>{
-        console.log("xxx")
+    $("#megamain").on("animationend",()=>{
+        console.log("xtraxtraxtra");
     })
 })
