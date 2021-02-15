@@ -15,7 +15,7 @@
     animation-name: appearing;
     animation-duration: 2.5s;
 }
-#megamain:hover{
+#megamain.super{
     animation-name: appearing;
     animation-direction: reverse;
     animation-duration: 2.5s;

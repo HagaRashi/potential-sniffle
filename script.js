@@ -5,4 +5,9 @@ $(()=>{
     $("#megaStart").one("click",()=>{
         $("#megamain").addClass("vanishing");
     })
+    $("#megamain").on("hover",()=>{
+        $("#megamain").addClass("super")
+    },()=>{
+        $("#megamain").removeClass("super")
+    })
 })
