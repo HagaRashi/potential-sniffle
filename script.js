@@ -6,6 +6,9 @@ $(()=>{
         $("#megamain").addClass("vanishing").removeClass("appearing");
         $("#megamain.vanishing").one("animationend",()=>{
             $("body").load("second.html");
+            $(".answ").one("click",()=>{
+                $(this).addClass("selected");
+            })
         })
     })
 })

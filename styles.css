@@ -64,3 +64,6 @@ div{
     background-color: #29B6F7 !important;
     color: white !important;
 }
+.selected{
+    background-color: #29B6F7;
+}
