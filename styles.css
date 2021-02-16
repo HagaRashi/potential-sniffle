@@ -34,6 +34,7 @@
 #megamain.vanishing{
     animation-name: disappearing;
     animation-duration: 2.5s;
+    animation-fill-mode: forwards;
 }
 #meganame{
     font-family: 'Acme', sans-serif;
