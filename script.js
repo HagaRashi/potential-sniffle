@@ -4,10 +4,8 @@ $(()=>{
     })
     $("#megaStart").one("click",()=>{
         $("#megamain").addClass("vanishing");
-    })
-    $("#megamain").on("mouseenter",()=>{
-        $("#megamain").addClass("super")
-    }).on("mouseleave",()=>{
-        $("#megamain").removeClass("super")
+        $("#megamain.vanishing").one("animationend",()=>{
+            $("body").load("second.html")
+        })
     })
 })
