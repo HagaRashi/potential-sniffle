@@ -31,17 +31,17 @@
 	animation-fill-mode: forwards !important;
     border-radius: 25px;
 }
-#megamain.vanishing{
+#main.vanishing{
     animation-name: disappearing;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
 }
-#meganame{
+#name{
     font-family: 'Acme', sans-serif;
     font-size: 5em !important;
     text-align: center;
 }
-div#megadescription,#quest,.answ{
+div#description,#quest,.answ{
     font-size: 2rem;
     font-family: 'Comfortaa';
     font-weight: 400;
@@ -49,7 +49,7 @@ div#megadescription,#quest,.answ{
 div{
     text-align: center !important;
 }
-#megaStart{
+#start{
     font-family: 'Comfortaa';
     font-weight: 600;
     font-size: 3rem;
@@ -60,7 +60,7 @@ div{
     border-radius: 20px;
     color: #29B6F7;
 }
-#megaStart:hover{
+#start:hover{
     background-color: #29B6F7 !important;
     color: white !important;
 }

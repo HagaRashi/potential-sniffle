@@ -1,13 +1,14 @@
 $(()=>{
-    $("#megamain").one("animationend",()=>{
-        console.log("xtraxtraxtra");
+    $("#main").one("animationend",()=>{
+        console.log("lol");
     })
     $("#megaStart").one("click",()=>{
-        $("#megamain").addClass("vanishing").removeClass("appearing");
-        $("#megamain.vanishing").one("animationend",()=>{
+        $("#main").addClass("vanishing").removeClass("appearing");
+        $("#main.vanishing").one("animationend",()=>{
             $("body").load("second.html");
-            $(".answ").one("click",()=>{
-                $(this).addClass("selected");
+            $(".answ").click(()=>{
+                console.log($(this))
+                $( this ).addClass("selected");
             })
         })
     })
