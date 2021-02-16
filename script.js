@@ -1,7 +1,4 @@
 $(()=>{
-    $("#main").one("animationend",()=>{
-        console.log("lol");
-    })
     $("#start").one("click",()=>{
         $("#main").addClass("vanishing").removeClass("appearing");
         $("#main.vanishing").one("animationend",()=>{
