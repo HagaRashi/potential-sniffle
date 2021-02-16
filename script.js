@@ -3,7 +3,7 @@ $(()=>{
         console.log("xtraxtraxtra");
     })
     $("#megaStart").one("click",()=>{
-        $("#megamain").addClass("vanishing");
+        $("#megamain").addClass("vanishing").removeClass("appearing");
         $("#megamain.vanishing").one("animationend",()=>{
             $("body").load("second.html");
         })
