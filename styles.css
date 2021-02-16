@@ -28,7 +28,7 @@
 }
 .answ{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    
+
 }
 #megamain2.appearing {
 	animation-name: appearing;
@@ -40,7 +40,7 @@
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
 }
-#meganame{
+#meganame,#quest{
     font-family: 'Acme', sans-serif;
     font-size: 5em !important;
     text-align: center;
