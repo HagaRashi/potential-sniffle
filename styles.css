@@ -40,12 +40,12 @@
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
 }
-#meganame,#quest{
+#meganame{
     font-family: 'Acme', sans-serif;
     font-size: 5em !important;
     text-align: center;
 }
-div#megadescription{
+div#megadescription,#quest{
     font-size: 2rem;
     font-family: 'Comfortaa';
     font-weight: 400;
