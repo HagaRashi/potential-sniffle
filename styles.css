@@ -26,6 +26,11 @@
     animation-name: appearing;
     animation-duration: 2.5s;
 }
+#megamain.appering{
+    animation-name: appearing;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
 #megamain.vanishing{
     animation-name: disappearing;
     animation-duration: 2.5s;

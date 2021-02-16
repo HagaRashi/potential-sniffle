@@ -5,7 +5,7 @@ $(()=>{
     $("#megaStart").one("click",()=>{
         $("#megamain").addClass("vanishing");
         $("#megamain.vanishing").one("animationend",()=>{
-            $("body").load("second.html")
+            $("body").load("second.html");
         })
     })
 })
