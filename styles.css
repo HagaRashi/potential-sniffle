@@ -26,10 +26,10 @@
     animation-name: appearing;
     animation-duration: 2.5s;
 }
-#megamain2:hover{
-    animation-name: appearing;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
+#megamain2.appearing {
+	animation-name: appearing;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
 }
 #megamain.vanishing{
     animation-name: disappearing;
