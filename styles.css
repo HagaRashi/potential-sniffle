@@ -45,7 +45,7 @@
     font-size: 5em !important;
     text-align: center;
 }
-div#megadescription,#quest{
+div#megadescription,#quest,.answ{
     font-size: 2rem;
     font-family: 'Comfortaa';
     font-weight: 400;
