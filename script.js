@@ -15,7 +15,7 @@ $(()=>{
     $("#start").one("click",()=>{
         $("#main").addClass("vanishing").removeClass("appearing");
         $("#main.vanishing").one("animationend",()=>{
-            $("body").load("second.html",toggle(".answ",true));
+            $("body").load("second.html",toggle($(".answ"),true));
         })
     })
 })
