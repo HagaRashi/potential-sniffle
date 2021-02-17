@@ -6,6 +6,7 @@ $(()=>{
                 $(".answ").one("click",function(){
                     console.log($(this))
                     $( this ).addClass("selected");
+                    $(".answ").off("click");
                 })
             });
         })
