@@ -1,14 +1,7 @@
 function toggle(x,y){
     console.log($(x).one("click",function(){
-        console.log($(this))
-        $(x).off("click");
-        if(y){
-            $(this).addClass("selected");
-            toggle(this,false);
-        } else{
-            $(this).removeClass("selected");
-            toggle($(".answ"),true);
-        }
+        $(x).removeClass("selected");
+        $(this).addClass("selected")
     }))
 }
 $(()=>{
