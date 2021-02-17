@@ -7,7 +7,7 @@ function toggle(x,y){
             toggle(this,false);
         } else{
             $(this).removeClass("selected");
-            toggle(".answ",true);
+            toggle($(".answ"),true);
         }
     }))
 }
